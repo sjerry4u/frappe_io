@@ -9,4 +9,22 @@ With Frappe Bench you will be able to setup and host multiple applications and s
 
 The `bench` command line tool will also be installed that will help you in development and management of the installation.
 
+## Create a new bench
+	$ bench init frappe-bench && cd frappe-bench
+	INFO:bench.utils:virtualenv -q env -p /usr/bin/python3
+	Already using interpreter /usr/bin/python3
+	INFO:bench.utils:env/bin/pip -q install --upgrade pip
+	INFO:bench.utils:env/bin/pip -q install wheel
+	INFO:bench.utils:env/bin/pip -q install six
+	.
+	.
+	✨  Done in 102.992s
+	Done in 104.04s.
+	INFO:bench.utils:setting up backups
+	INFO:bench.utils:setting up auto update
+	Bench my_platform initialized
+
+	
+
+
 {next}
